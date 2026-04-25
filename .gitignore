@@ -1,0 +1,34 @@
+gitignore
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (contains SDK paths, etc.)
+local.properties
+
+# Log/cache files
+*.log
+.kotlin/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Keystore files (NEVER upload your signing keys to GitHub)
+*.jks
+*.keystore
+*.p12
+
+# External Native Build
+.externalNativeBuild/
+.cxx/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Captured screenshots/videos
+/captures/
